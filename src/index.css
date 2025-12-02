@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600&family=Oswald:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: add custom styles here */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  background-color: #fff9f9;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar,
+.sidebar {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1561px;
+  margin: auto;
+  padding: 0 16px;
+}
+button.comon_btn {
+    padding: 10px;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+
+
+@layer utilities {
+  .bg-primary {
+    background-color: #e74c3c;
+  }
+  .hover\:bg-primary:hover {
+    background-color: #da3f44;
+  }
+  .text-white{
+    color: #fff;
+  }
+}
